@@ -10,16 +10,16 @@ The following are source files for asciidraw
 - 11x16font.c: Defines bitmap array of 11x16 font (11 rows, 16 cols).  Each col is stored as a bitmap of type short
 - draw.h: Header file containing all the declarations of the relevant methods used in this demo.
 
-You can compile this program using the command
- $ cc  -g -O3 -o asciidraw uimain.c draw_shapes.c draw_chars.c 11x16font.c
+You can compile this program using the command ::
+    $ cc  -g -O3 -o asciidraw uimain.c draw_shapes.c draw_chars.c 11x16font.c
  
 - This command is a nuisance to type.  
 - The TAs will show you how the program *make* can more conveniently and efficiently compile asciidraw.
 - Efficiency: due to only compiling those .c files whose source has been changed more recently than their .o files.
 - Convenience: due to make reading a database called Makefile specifying dependencies among files.
 
-The following command runs the program
- $ ./asciidraw
+The following command runs the program ::
+    $ ./asciidraw
 
 The following files are also provided for your convenience (but not presently used)
 - 5x7font.c: defines the bitmaps of a 5x7 font (5 rows, 7 cols).  Each col is stored bitmap of type char
