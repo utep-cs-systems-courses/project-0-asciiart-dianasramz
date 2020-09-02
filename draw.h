@@ -1,12 +1,10 @@
-#ifndef INCLASSLAB1_DRAW_H
-#define INCLASSLAB1_DRAW_H
+#ifndef INCLASSLAB0_DRAW
+#define INCLASSLAB0_DRAW
 
-void draw_bitmap(int height, int width,  int bitmap[height][width], char drawChar);
+void draw_bitmap(int width, int height,  int bitmap[width][height], char drawChar);
 
 void print_triangle(int width,char drawChar);
 
-void print_square(int width, char drawChar);
-
-void print_down_arrow(int width, char drawChar); // Complete this method
+void print_rectangle(int width, int height, char drawChar);
 
 #endif

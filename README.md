@@ -1,1 +1,4 @@
-# arch1-project0
+# Lab Project 0: ASCII Printing
+===================================
+
+The code
