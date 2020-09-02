@@ -27,13 +27,24 @@ The following files are also provided for your convenience (but not presently us
 - 5x7font.c: defines the bitmaps of a 5x7 font (5 rows, 7 cols).  Each col is stored bitmap of type char
 - 8x12font.c: defines the bitmaps of an 8x12 font (8 rows, 12 cols).  Each row is stored bitmap of types char.
 
-# Please observe the following standard C practices
+# Pleae try to be polite and respectful
+  Java's coding style are subtly different from C's.
+  These styles were developed for pragmatic reasons.
+  It's rude (and unprofessional) to ignore others' cultural norms.  
+  Generosity and sensitivity are universally appreciated.
+
+Please observe the following standard C coding practices in this program:
 - Multiple related functions are defined in the same source file (e.g. draw_shapes.c).  
   Otherwise a project would contain an overwhelming number of files.
 - Type definitions are collected in just a few (in this case one) include file (draw.h).
   Please read it.
 - Giant function and variable definitions (e.g. the font bitmap arrays) are stored in their own files. 
   Otherwise the files containing them would be overwhelmingly long.
+- C's indention is (slightly) different than Java.  Feel free to ask about the differences.  
+  Some of it is pragmatically motivated, some is just idiosyncratic.
+- Traditionally, C uses underscores_to_separate_words and to denote constants in ALL_CAPS.  
+  CamelCase is now also acceptable.  Please try to be consistent.
+- Similar coding practices are employed when writing assembly language.
 
 # Instructions
 
