@@ -31,7 +31,8 @@ The following files are also provided for your convenience (but not presently us
 - Multiple related functions are defined in the same source file (e.g. draw_shapes.c).  
   Otherwise a project would contain an overwhelming number of files.
 - Type definitions are collected in just a few (in this case one) include file (draw.h).
-- Giant function and variable definitions are stored in their own files. 
+  Please read it.
+- Giant function and variable definitions (e.g. the font bitmap arrays) are stored in their own files. 
   Otherwise the files containing them would be overwhelmingly long.
 
 # Instructions
