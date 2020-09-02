@@ -1,7 +1,7 @@
 # compiler flags.  -g for debug, -O3 for optimization
 CFLAGS=-g -O3
 
-OBJS=triangle.o rectangle.o font-11x16.o char_11x16.o uimain.o
+OBJS= draw_shapes.o draw_chars.o 11x16font.o uimain.o
 
 
 # first target is built by default
