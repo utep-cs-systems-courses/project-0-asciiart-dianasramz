@@ -11,7 +11,7 @@ int main()
     fflush(stdout);		/* stdout only flushes automatically on \n */
     int c;
     while ((c = getchar()) == '\n'); /* ignore newlines */
-    if (c == EOF)
+    if (c == EOF)		     /* terminate on end-of-file */
       goto done;
 
     // Given the user answer, select which method to call
@@ -35,7 +35,7 @@ int main()
     case '\n':
       break;
     default:
-      printf("Incorrect option '%c', please try again!\n", c);
+      printf("Unrecognized option '%c', please try again!\n", c);
     }
   }
 
