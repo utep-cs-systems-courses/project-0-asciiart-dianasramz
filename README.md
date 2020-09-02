@@ -3,6 +3,24 @@ Lab Project 0: ASCII Printing
 # Description
 This demo code builds a program "asciidraw" that prints ASCII art.
 
+# Anticipated learing outcomes
+This playful assignment is primarily intended to enable students to achieve and demonstrate competencies 
+related to 
+- Use of program command-line driver development tools including an edtior, c compiler, make, and git.
+- Concepts described in chapters 1-4 of Kernigham & Ritchie's "C Programming Language" such as
+  - Declaration & definition of functions and various integer types.
+  - Control flow, including goto.
+  - Bitwise operators such as shift (<<) and AND (&).
+  - Separate compilation and the role of include/header files.
+
+By engaging students in the analysis and modification of algorithms that render ASCII art, 
+this project will also introduce concepts related to raster graphics including
+
+- The projection of simple planar geometric shapes into a discrete raster plane.
+- The use of bitmaps to encode rasterized patterns.
+
+# Files
+
 The following are source files for asciidraw
 - uimain.c: Main file with the UI to interact with the user. Given the user input, it prints the desired shape.
 - draw_shapes.c: Defines functions to draw simple shapes (e.g. square, triangle)
