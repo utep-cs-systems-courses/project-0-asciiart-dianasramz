@@ -1,1 +1,0 @@
-void print_down_arrow(int size, char drawChar); // Complete this method
