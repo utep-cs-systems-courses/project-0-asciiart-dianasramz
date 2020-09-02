@@ -28,12 +28,12 @@ The following files are also provided for your convenience (but not presently us
 - 8x12font.c: defines the bitmaps of an 8x12 font (8 rows, 12 cols).  Each row is stored bitmap of types char.
 
 # Pleae try to be polite and respectful
-  Java's coding style are subtly different from C's.
-  These styles were developed for pragmatic reasons.
+  Java's coding styles are subtly different from C's.
+  These styles developed for both pragmatic and idiosyncratic reasons.
   It's rude (and unprofessional) to ignore others' cultural norms.  
   Generosity and sensitivity are universally appreciated.
 
-Please observe the following standard C coding practices in this program:
+Please observe the following standard C coding practices:
 - Multiple related functions are defined in the same source file (e.g. draw_shapes.c).  
   Otherwise a project would contain an overwhelming number of files.
 - Type definitions are collected in just a few (in this case one) include file (draw.h).
