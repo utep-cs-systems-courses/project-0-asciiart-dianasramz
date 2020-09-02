@@ -10,8 +10,10 @@ int main()
   while (1) { // Infinite while loop
 
     puts("Select which shape you want to print (Triangle = t, Square = s, Chars = c) or 'q' to quit.\n");
-    char c;
-    while ((c = getchar()) == '\n'); /* ignore newlines */
+    int c;
+    while ((c = getchar()) == '\n') /* ignore newlines */
+      if (c == EOF)
+	goto done;
 
     // Given the user answer, select which method to call
     switch (c) {
@@ -30,7 +32,7 @@ int main()
       break;
     case 'q':
       puts("Bye!\n");
-      goto exit; // Goes to the "exit" label
+      goto done; // Goes to the "exit" label
     case '\n':
       break;
     default:
@@ -38,6 +40,6 @@ int main()
     }
   }
 
- exit: // To exit from program
+ done: // To exit from program
   return 0;
 }

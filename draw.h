@@ -1,10 +1,12 @@
-#ifndef INCLASSLAB0_DRAW
-#define INCLASSLAB0_DRAW
+#ifndef DRAW_INCLUDED
+#define DRAW_INCLUDED
 
-void draw_bitmap(int width, int height,  int bitmap[width][height], char drawChar);
+void print_triangle(int startCol, int size);
+void print_square(int startCol, int size);
+void print_char_11x16(char c);
 
-void print_triangle(int width,char drawChar);
-
-void print_rectangle(int width, int height, char drawChar);
+extern const unsigned short font_11x16[95][11];
+extern const unsigned char font_5x7[96][5];
+extern const unsigned char font_8x12[95][12];
 
 #endif
