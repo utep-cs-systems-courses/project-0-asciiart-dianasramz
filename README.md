@@ -25,7 +25,7 @@ The following command runs the program
 
 The following files are provided for your convenience (but not presently used)
 - 5x7font.c: defines the bitmaps of a 5x7 font (5 rows, 7 cols).  Each col is stored as a bitmap of type char
-- 8x12font.c: defines the bitmaps of an 8x12 font (8 rows, 12 cols).  Each row is stored as a bitmap of types char.
+- 8x12font.c: defines the bitmaps of an 8x12 font (8 rows, 12 cols).  Each row is stored as a bitmap of type char.
 
 # Pleae try to be polite and respectful
   Java's coding styles are subtly different from C's.
