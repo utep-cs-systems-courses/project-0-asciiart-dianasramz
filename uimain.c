@@ -31,7 +31,7 @@ int main()
       break;
     case 'q':
       puts("Bye!");
-      goto done; // Goes to the "exit" label
+      goto done; 		/* terminate */
     case '\n':
       break;
     default:
